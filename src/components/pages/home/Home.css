@@ -1,0 +1,46 @@
+.home-container{
+    /*background-color: #f508cd;*/
+    background-color: #0c303d;
+    height: 650px;
+    color: #ffeaea;
+    display: flex;
+    justify-content: center;
+}
+
+.home-box{
+    padding-top: 60px;
+    /*background-color: #f508cd;*/
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 100%;
+    width: 65%;
+    align-items: center;
+}
+
+.icon-person-box{
+    /*background-color: white;*/
+    width: 25%;
+    height: 50%;
+}
+
+.home-description {
+    width: 60%;
+    height: 50%;
+}
+
+.home-description p{
+    font-size: 25px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.icon-person{
+    width: 100%;
+    height: 80%;
+    border-radius: 50%;
+}
+
+.home-description-short{
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}

@@ -1,0 +1,134 @@
+.contact-container{
+    /*background-color: #7520d7;*/
+    background-color: #0c303d;
+    height: 350px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.contact-icons{
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.icon-facebook{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.icon-facebook:hover{
+    color: #0cead0;
+    transition: 0.5s;
+}
+
+.icon-instagram{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.icon-instagram:hover{
+    color: #0cead0;
+    transition: 0.5s;
+}
+
+
+.icon-linkedin{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.icon-linkedin:hover{
+    color: #0cead0;
+    transition: 0.5s;
+}
+
+.icon-twitter{
+    width: 50px;
+    height: 50px;
+    color: white;
+}
+.icon-twitter:hover{
+    color: #0cead0;
+    transition: 0.5s;
+}
+
+
+.icon-mail{
+    width: 90px;
+    height: 90px;
+}
+
+
+.say-hello{
+    width: 50%;
+    height: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5%;
+}
+
+.say-hello h1{
+    font-size: 25px;
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: center;
+}
+
+.say-hello a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+}
+
+.say-hello a:hover{
+    color: #0cead0;
+    transition: 0.5s;
+}
+
+.contact-container-second{
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-icons{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 50%;
+    width: 50%;
+}
+
+.contact-box-icons{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: space-around;
+}
+
+.contacts-description-short{
+    width: 40%;
+    height: 80%;
+    display: flex;
+    align-items: center;
+}
+
+.contacts-description-short p{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 22px;
+}

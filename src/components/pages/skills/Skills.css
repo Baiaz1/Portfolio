@@ -1,0 +1,64 @@
+.resume-container{
+    background-color: #0c303d;
+    height: 650px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.skills-first-container{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-second-container{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-third-container{
+    height: 45%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.skill-box{
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.skill-box a{
+    text-decoration: none;
+    color: white;
+}
+
+.skill-box a:hover{
+    color: #17e8e8;
+    transition: 1s;
+}
+
+.skill-box p{
+    width: 60%;
+    font-family: 'Poppins', sans-serif;
+}
+
+.icon-lang{
+    width: 30%;
+    height: 60%;
+}
+
+.skill-short-description{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 1%;
+}

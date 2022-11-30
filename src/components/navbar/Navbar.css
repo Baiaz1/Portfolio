@@ -1,0 +1,35 @@
+nav {
+    height: 60px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Inconsolata', monospace;
+    background-color: #0c303d;
+}
+
+.active{
+    visibility: visible;
+    transition: all 0.5s;
+}
+.hidden{
+    visibility: hidden;
+    transition: all 0.5s;
+    transform: translateY(-100%);
+}
+
+.navbar-elements{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #ffffff;
+    opacity: 1;
+}
+
+.navbar-elements :hover{
+    transition: 0.3s all linear;
+    color: #17e8e8;
+}
